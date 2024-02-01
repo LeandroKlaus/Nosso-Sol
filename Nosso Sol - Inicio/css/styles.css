@@ -1,0 +1,123 @@
+:root {
+  --yellow: #F8C508; /* Defina a cor amarela */
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/bgi.jpeg");
+}
+
+.Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 90px;
+}
+
+.head img {
+  margin-top: 40px;
+  margin-left: 26px;
+  font-size: 43px;
+  font-weight: 700;
+  color: #f8c508;
+  height: 80px;
+}
+
+.log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
+
+.sign1 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 32px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 29px;
+  max-width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.sign2,
+.sign3 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 29px;
+  max-width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.ajuda {
+  color: #c3c3c3;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 13px;
+  width: 305px;
+  margin-top: 14px;
+}
+
+.ajuda a {
+  text-decoration: none;
+  color: #c3c3c3;
+}
+
+.new {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.cadastre-se-button,
+.top-right-button {
+  background-color: var(--yellow);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cadastre-se-button {
+  width: 300px;
+}
+
+/* Estilize o novo botão no canto superior direito */
+.top-right-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}

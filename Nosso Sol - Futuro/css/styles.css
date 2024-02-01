@@ -1,0 +1,84 @@
+:root {
+  --yellow: #F8C508; /* Defina a cor amarela */
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/bgi.jpeg");
+}
+
+.Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 90px;
+}
+
+.head img {
+  margin-top: 40px;
+  margin-left: 26px;
+  font-size: 43px;
+  font-weight: 700;
+  color: #f8c508;
+  height: 80px;
+}
+
+.log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
+
+.sign1 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 32px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 29px;
+  max-width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.sign2,
+.sign3 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 29px;
+  max-width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  display: inline-block;
+  padding: 10px; /* Ajuste conforme necessário */
+  background-color: transparent; /* Remover o fundo do botão */
+  border: none;
+}
+
+button img {
+  width: 100%; /* Ajuste a largura da imagem para preencher o botão */
+  height: auto; /* Manter a proporção da imagem */
+  cursor: pointer;
+}
